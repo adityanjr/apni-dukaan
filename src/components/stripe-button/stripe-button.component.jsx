@@ -3,7 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey = 'pk_live_51H43NOJektzsup0s9A1nlOOoWGNopMz5LzfraF6QBNgQh5qnFJi4aXYYNxW9QjBeVEtqcfy16inQcJWpVCgJHnwA00knOoTUaB';
+  const publishableKey = 'pk_test_WBqax2FWVzS9QlpJScO07iuL';
 
   const onToken = token => {
     console.log(token);
@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='ADITYANJR Ltd.'
+      name='CRWN Clothing Ltd.'
       billingAddress
       shippingAddress
       image='https://svgshare.com/i/CUz.svg'
@@ -27,7 +27,3 @@ const StripeCheckoutButton = ({ price }) => {
 };
 
 export default StripeCheckoutButton;
-
-
-// Test Card ----
-// 4242 4242 4242 4242 --- EXP: 01/20 --- CVV:123
