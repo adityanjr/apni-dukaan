@@ -12,7 +12,7 @@ npm start
 ## Live
 
 Deployed to Heroku : 
-[https://dukaan-live.herokuapp.com/](https://dukaan-live.herokuapp.com/)
+[https://dukaan-is-live.herokuapp.com//](https://dukaan-is-live.herokuapp.com/)
 
 ## Features
 
